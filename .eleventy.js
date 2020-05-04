@@ -1,5 +1,5 @@
-module.exports = config => {
-  config.addPassthroughCopy({ public: './' })
+module.exports = (config) => {
+  config.addPassthroughCopy({ 'src/public': './' })
 
   config.setBrowserSyncConfig({
     files: ['dist/**/*'],
@@ -10,7 +10,7 @@ module.exports = config => {
 
   return {
     dir: {
-      input: 'views',
+      input: 'src/views',
       output: 'dist',
     },
   }

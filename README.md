@@ -1,4 +1,4 @@
-# Static Starter
+# Eleventy Starter
 
 The goal of this project is to bring together what I believe are most pragmatic and performant frontend frameworks and tools into a cohesive template for making web development wonderful.
 
@@ -18,7 +18,7 @@ Refer to the [11ty docs](https://www.11ty.dev/docs/) for more information on how
 
 ### Assets
 
-All static assets, like images and fonts, should be placed in `public`, as it is copied as-is into the `dist` directory.
+All static assets, like images and fonts, should be placed in `src/public`, as it is copied as-is into the `dist` directory.
 
 ## Scripting
 
@@ -32,15 +32,15 @@ For bundling, this project uses [Rollup](https://rollupjs.org/guide/en/). This i
 
 For complex functionality that doesn't require SEO, such as pulling data from an API client side or sending post requests, this project utilitizes [Svelte](https://svelte.dev). Svelte is an exceptional JS framework that makes reactivity simple and predictable.
 
-**Note:** See `index.njk` and `svelte.js` to see how Svelte can be initialized on pages.
+**Note:** See `src/views/index.njk` and `src/scripts/svelte.js` to see how Svelte can be initialized on pages.
 
 ## Styling
 
-This project uses [TailwindCSS](https://tailwindcss.com/) for styling. This allows us to generate a giant list of utility classes that can be shared across differing templating languages and frameworks. The configuration file is located at `tailwind.config.js`, and all imports are located in `styles`.
+This project uses [TailwindCSS](https://tailwindcss.com/) for styling. This allows us to generate a giant list of utility classes that can be shared across differing templating languages and frameworks. The configuration file is located at `tailwind.config.js`, and all imports are located in `src/styles`.
 
 ### My Tailwind Config
 
-I use Tailwind in a pragmatic and predictable fashion. With this configuation, all you need to edit are the arrays and objects located in the `values` comment block of `tailwind.config.js`.
+I use Tailwind in a pragmatic and predictable fashion.
 
 If you like the way I use Tailwind, awesome! If not, just delete it and create your own. That's the beauty of using Tailwind.
 
