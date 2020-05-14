@@ -57,6 +57,15 @@ module.exports = {
   corePlugins: {
     container: false,
   },
+  purge: {
+    content: [
+      './src/**/*.njk',
+      './src/**/*.js',
+      './src/**/*.svelte',
+      './src/**/*.svg',
+    ],
+  },
+  plugins: [require('@tailwindcss/custom-forms')],
   theme: {
     extend: {
       colors: {},
@@ -75,5 +84,4 @@ module.exports = {
     screens: screenObject,
     width: spacing,
   },
-  plugins: [require('@tailwindcss/custom-forms')],
 }
