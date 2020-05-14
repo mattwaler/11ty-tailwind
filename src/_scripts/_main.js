@@ -1,4 +1,4 @@
-import '../styles/_main.css'
+import '../_styles/_main.css'
 import './svelte'
 
 // DEV_MODE gets replaced at build time based on ENV!
