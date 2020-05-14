@@ -1,4 +1,4 @@
-# Eleventy Starter
+# 11ty Starter
 
 The goal of this project is to bring together what I believe are most pragmatic and performant frontend frameworks and tools into a cohesive template for making web development wonderful.
 
@@ -12,7 +12,7 @@ The goal of this project is to bring together what I believe are most pragmatic 
 
 ### 11ty
 
-This project uses [11ty](https://www.11ty.dev/docs/) for templating and static generation. All templating takes place inside the `views` directory.
+This project uses [11ty](https://www.11ty.dev/docs/) for templating and static generation. All templating takes place inside the `src/views` directory.
 
 Refer to the [11ty docs](https://www.11ty.dev/docs/) for more information on how to customize 11ty to your liking, it is an incredibly powerful tool!
 
