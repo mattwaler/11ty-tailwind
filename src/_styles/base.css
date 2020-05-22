@@ -1,4 +1,4 @@
 html,
 body {
-  @apply font-sans text-gray-800 antialiased;
+  @apply font-inter text-gray-800 antialiased;
 }

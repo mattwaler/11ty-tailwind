@@ -11,13 +11,22 @@
 </script>
 
 <div class="mt-48">
-  <p>The list below is fetched from a local JSON file and rendered via Svelte!</p>
-  {#each navigation as { text, link }}
-    <a class="block mt-8 underline" href={link}>{text}</a>
-  {/each}
+  <p>
+    The list below is fetched from a local JSON file that is created by 11ty and
+    fetched via Svelte!
+  </p>
+  <ul class="list-disc ml-24 mt-16">
+    {#each navigation as { text, link }}
+      <li>
+        <a class="block underline" href={link}>{text}</a>
+      </li>
+    {/each}
+  </ul>
 </div>
-
 <div class="mt-48">
-  <p>The string below is global and will stay in sync when you update via other components!</p>
-  <p class="text-30">{$message}</p>
+  <p>
+    The content below is a svelte store and will stay in sync even when you
+    update via other Svelte instances!
+  </p>
+  <p class="text-24 mt-24">{$message}</p>
 </div>

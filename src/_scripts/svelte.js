@@ -5,7 +5,7 @@ import Message from './message.svelte'
 import Navigation from './navigation.svelte'
 
 // Global State
-export const message = writable('Hello from a Svelte Store!')
+export const message = writable('This is a Svelte store!')
 
 run('[data-message]', (target) => new Message({ target }))
 run('[data-navigation]', (target) => new Navigation({ target }))

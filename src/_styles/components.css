@@ -1,11 +1,3 @@
 .container {
-  @apply max-w-960 mx-auto w-100%;
-}
-
-.spacing {
-  @apply p-24;
-}
-
-.h1 {
-  @apply text-42 font-700 text-gray-900;
+  @apply max-w-960 mx-auto p-24;
 }
