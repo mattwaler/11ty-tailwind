@@ -1,5 +1,5 @@
 <script>
-  import { message } from './svelte'
+  import { message } from './store'
 
   function changeMessage() {
     return $message == 'This is a Svelte store!'
@@ -8,7 +8,7 @@
   }
 </script>
 
-<h2 class="text-30">{$message}</h2>
-<button class="bg-blue-500 p-16 my-24 text-white" on:click={changeMessage}>
+<h2 class="text-2xl">{$message}</h2>
+<button class="bg-blue-500 p-2 mt-8 text-white" on:click={changeMessage}>
   Change Message!
 </button>

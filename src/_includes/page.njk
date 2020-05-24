@@ -9,13 +9,12 @@
     <title>{{ title }}</title>
     {% block head %}{% endblock %}
   </head>
-  <body class="flex flex-col min-h-100vh">
+  <body class="flex flex-col min-h-screen">
     {% include 'header.njk' %}
     <main class="flex-grow">
       {% block body %}{% endblock %}
     </main>
     {% include 'footer.njk' %}
     <script src="/assets/main.bundle.js"></script>
-    {% block scripts %}{% endblock %}
   </body>
 </html>

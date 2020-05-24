@@ -4,9 +4,9 @@ The goal of this project is to bring together what I believe are most pragmatic 
 
 ## Getting Started
 
-- `npm i` to grab dependencies
-- `npm run dev` to fire up dev server
-- `npm run build` to build static site
+- `yarn` to grab dependencies
+- `yarn dev` to fire up dev server
+- `yarn build` to build static site
 
 ## Templating
 
@@ -38,11 +38,9 @@ For complex functionality that doesn't require SEO, such as pulling data from an
 
 This project uses [TailwindCSS](https://tailwindcss.com/) for styling. This allows us to generate a giant list of utility classes that can be shared across differing templating languages and frameworks. The configuration file is located at `tailwind.config.js`, and all imports are located in `src/_styles`.
 
-### My Tailwind Config
+### Tailwind
 
-I use Tailwind in a pragmatic and predictable fashion.
-
-If you like the way I use Tailwind, awesome! If not, just delete it and create your own. That's the beauty of using Tailwind.
+I am using the default configuration for ease-of-use, and so that people can use great tools like Tailwind UI to quickly bootstrap a site!
 
 ## Knock Yourself Out!
 

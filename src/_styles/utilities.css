@@ -1,3 +1,5 @@
+/* Add custom utilities here! */
+
 .h1 {
-  @apply text-48 font-900 text-gray-900;
+  @apply text-3xl font-black;
 }
