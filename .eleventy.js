@@ -1,5 +1,5 @@
 module.exports = (config) => {
-  config.addPassthroughCopy({ 'src/_public': './' })
+  config.addPassthroughCopy({ public: './' })
 
   config.setBrowserSyncConfig({
     files: ['dist/**/*'],
