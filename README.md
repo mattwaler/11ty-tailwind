@@ -18,7 +18,7 @@ Refer to the [11ty docs](https://www.11ty.dev/docs/) for more information on how
 
 ### Assets
 
-All static assets, like images and fonts, should be placed in `src/_public`, as it is copied as-is into the `dist` directory.
+All static assets, like images and fonts, should be placed in `public`, as it is copied as-is into the `dist` directory.
 
 ## Scripting
 
