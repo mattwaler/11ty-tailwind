@@ -4,8 +4,8 @@
 /* purgecss end ignore */
 
 /* Components */
-@import './styles/components.css';
 @import 'tailwindcss/components';
+@import './styles/components.css';
 
 /* Utilities */
 @import 'tailwindcss/utilities';
