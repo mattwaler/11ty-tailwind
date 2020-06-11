@@ -32,11 +32,11 @@ For bundling, this project uses [Rollup](https://rollupjs.org/guide/en/). This i
 
 For complex functionality that doesn't require SEO, such as pulling data from an API client side or sending post requests, this project utilitizes [Svelte](https://svelte.dev). Svelte is an exceptional JS framework that makes reactivity simple and predictable.
 
-**Note:** See `src/index.njk` and `src/_scripts/svelte.js` to see how Svelte can be initialized on pages.
+**Note:** See `src/index.njk` and `src/_bundle/scripts/svelte.js` to see how Svelte can be initialized on pages.
 
 ## Styling
 
-This project uses [TailwindCSS](https://tailwindcss.com/) for styling. This allows us to generate a giant list of utility classes that can be shared across differing templating languages and frameworks. The configuration file is located at `tailwind.config.js`, and all imports are located in `src/_styles`.
+This project uses [TailwindCSS](https://tailwindcss.com/) for styling. This allows us to generate a giant list of utility classes that can be shared across differing templating languages and frameworks. The configuration file is located at `tailwind.config.js`, and all imports are located in `src/_bundle/styles`.
 
 ### Tailwind
 
