@@ -1,4 +1,10 @@
 module.exports = {
+  future: {
+    defaultLineHeights: true,
+    purgeLayersByDefault: true,
+    removeDeprecatedGapUtilities: true,
+    standardFontWeights: true,
+  },
   purge: {
     content: [
       './src/**/*.njk',

@@ -4,9 +4,9 @@ The goal of this project is to bring together what I believe are most pragmatic 
 
 ## Getting Started
 
-- `yarn` to grab dependencies
-- `yarn dev` to fire up dev server
-- `yarn build` to build static site
+- `npm i` to grab dependencies
+- `npm run dev` to fire up dev server
+- `npm run build` to build static site
 
 ## Templating
 
