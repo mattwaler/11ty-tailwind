@@ -37,6 +37,7 @@
     "rollup-plugin-svg": "^2.0.0",
     "rollup-plugin-terser": "^7.0.2",
     "svelte": "^3.16.7",
-    "tailwindcss": "1.9.0"
+    "tailwindcss": "1.9.0",
+    "tailwindcss-debug-screens": "^1.1.0"
   }
 }

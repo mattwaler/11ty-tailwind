@@ -6,11 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/assets/main.bundle.css?version={{ version }}">
     <script defer src="/assets/main.bundle.js?version={{ version }}"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
     <title>{{ title }}</title>
     {% block head %}{% endblock %}
   </head>
-  <body class="flex flex-col min-h-screen">
+  <body class="flex flex-col min-h-screen {{ 'debug-screens' if devMode }}">
     {% include 'header.njk' %}
     <main class="flex-grow">
       {% block body %}{% endblock %}

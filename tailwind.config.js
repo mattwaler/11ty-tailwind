@@ -13,12 +13,9 @@ module.exports = {
       './src/**/*.svg',
     ],
   },
-  plugins: [require('@tailwindcss/custom-forms')],
-  theme: {
-    extend: {
-      fontFamily: {
-        inter: '"Inter", sans-serif;',
-      },
-    },
-  },
+  plugins: [
+    require('@tailwindcss/custom-forms'),
+    require('tailwindcss-debug-screens'),
+  ],
+  theme: {},
 }
