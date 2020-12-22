@@ -1,6 +1,12 @@
-# 11ty Starter
+# PLEASE READ - TRY THE [TEA STACK](https://github.com/mattwaler/tea-stack) INSTEAD
 
-The goal of this project is to bring together what I believe are most pragmatic and performant frontend frameworks and tools into a cohesive template for making web development wonderful.
+This repo was created a while ago, before AlpineJS existed and Svelte was the simplest frontend JS framework.
+
+However, AlpineJS is a much better fit for 11ty. Being able to sprinkle dynamic JS into your NJK files is way better than instantiating Svelte instances and doubling/tripling the amount of template files and languages.
+
+I created a new project, the [tea stack](https://github.com/mattwaler/tea-stack) (TailwindCSS, 11ty, and AlpineJS), which I believe is a much better project overall.
+
+I will not be updating this project going forward. Thanks for checking this out, and be sure to check out the other repo as well!
 
 ## Getting Started
 
