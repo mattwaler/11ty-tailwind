@@ -1,53 +1,9 @@
 # PLEASE READ - TRY THE [TEA STACK](https://github.com/mattwaler/tea-stack) INSTEAD
 
-This repo was created a while ago, before AlpineJS existed and Svelte was the simplest frontend JS framework.
+This repo was created a while ago, before Alpine.js existed and Svelte was the simplest frontend JS framework.
 
-However, AlpineJS is a much better fit for 11ty. Being able to sprinkle dynamic JS into your NJK files is way better than instantiating Svelte instances and doubling/tripling the amount of template files and languages.
+However, Alpine is a much better fit for Eleventy projects. Being able to sprinkle reactivity into your templates is much better than having to instantiate Svelte instances in your templates. Also, by using Alpine, all your content is statically generated and indexable, whereas Svelte will need to render on the client side. 
 
-I created a new project, the [tea stack](https://github.com/mattwaler/tea-stack) (TailwindCSS, 11ty, and AlpineJS), which I believe is a much better project overall.
+I created a new project, the [tea stack](https://github.com/mattwaler/tea-stack) (Tailwind, Eleventy, and Alpine), which I believe is a much better project overall.
 
 I will not be updating this project going forward. Thanks for checking this out, and be sure to check out the other repo as well!
-
-## Getting Started
-
-- `npm i` to grab dependencies
-- `npm run dev` to fire up dev server
-- `npm run build` to build static site
-
-## Templating
-
-### 11ty
-
-This project uses [11ty](https://www.11ty.dev/docs/) for templating and static generation. All templating takes place inside the `src` directory.
-
-Refer to the [11ty docs](https://www.11ty.dev/docs/) for more information on how to customize 11ty to your liking, it is an incredibly powerful tool!
-
-### Assets
-
-All static assets, like images and fonts, should be placed in `public`, as it is copied as-is into the `dist` directory.
-
-## Scripting
-
-This project uses a combination of tools to make developing dynamic data-driven scripting simple and pleasant.
-
-### Rollup
-
-For bundling, this project uses [Rollup](https://rollupjs.org/guide/en/). This is a fantastic bundler that makes complex bundling simple and highly configurable. See `rollup.config.js` to see what is going on under the hood.
-
-### Svelte
-
-For complex functionality that doesn't require SEO, such as pulling data from an API client side or sending post requests, this project utilitizes [Svelte](https://svelte.dev). Svelte is an exceptional JS framework that makes reactivity simple and predictable.
-
-**Note:** See `src/index.njk` and `src/_bundle/scripts/svelte.js` to see how Svelte can be initialized on pages.
-
-## Styling
-
-This project uses [TailwindCSS](https://tailwindcss.com/) for styling. This allows us to generate a giant list of utility classes that can be shared across differing templating languages and frameworks. The configuration file is located at `tailwind.config.js`, and all imports are located in `src/_bundle/styles`.
-
-### Tailwind
-
-I am using the default configuration for ease-of-use, and so that people can use great tools like Tailwind UI to quickly bootstrap a site!
-
-## Knock Yourself Out!
-
-Thank you for taking the time to check out this repo and read through the docs. I hope this tool is useful and pleasant to work with. Have a great day!
